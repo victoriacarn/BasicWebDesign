@@ -8,7 +8,7 @@ body{
 img{
     display: block;
     margin: 0 auto;
-    width: 100%;
+    width: 75%;
 }
 
 #container{
@@ -95,7 +95,7 @@ img{
 
 @media (min-width: 1024px) {
     #container {
-        width: 65%;
+        width: 80%;
         margin: 20px auto;
         border: 13px solid #354F60;
         border-radius: 25px;
