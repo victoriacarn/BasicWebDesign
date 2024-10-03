@@ -1,0 +1,120 @@
+/* Global Styles */
+
+body{
+    background-color: #450A0C;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#container{
+    background-color: #0A0D16;
+}
+
+/* Mobile Styles */
+
+@media (min-width: 320px) {
+    nav {
+        background-color: #354F60;
+        padding: 5px
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    nav li a {
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        background-color: #450A0C;
+        color: #354F60;
+        font-size: 24px;
+        text-decoration: none;
+        margin-top: 5px;
+    }
+
+    nav li a:hover {
+        background-color: #0A0D16;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    h1, h2, h3 {
+        text-align: center;
+        color: #450A0C;
+
+    }
+
+    p {
+        color: #354F60;
+    }
+
+    ul {
+        color: #354F60;
+    }
+
+    footer {
+        text-align: center;
+        padding: 40px;
+    }
+
+} 
+
+/* Tablet Styles */
+
+@media (min-width: 768px) {
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 130px;
+        height: 50px;
+        line-height: 50px;
+        margin: 30px;
+    }
+
+}
+
+/* Desktop Files */
+
+@media (min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+        border: 13px solid #354F60;
+        border-radius: 25px;
+    }
+
+    nav {
+        padding: 0;
+        margin: 0;
+    }
+
+    nav li a {
+        background-color: #354F60;
+        color: #0A0D16;
+    }
+
+    nav li a:hover {
+        background-color: #450A0C;
+    }
+
+    hr {
+        display: none;
+    }
+
+}
